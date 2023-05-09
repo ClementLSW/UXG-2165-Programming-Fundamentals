@@ -327,6 +327,8 @@ namespace Assignment1
                 else {
                     Destroy(aObj);
                 }
+            }else{
+                Destroy(aObj);
             }
 
             //TASK 2c/d END
