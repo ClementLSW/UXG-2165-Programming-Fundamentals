@@ -24,7 +24,6 @@ namespace Assignment1
                 //End the delivery as a failure.
                 //You should use the FinishDelivery function in GameController.
                 //TASK 4a START
-                GameController gameController = GameObject.Find("GameController").GetComponent<GameController>();
                 gameController.FinishDelivery(false, deliveryIndex);
                 //TASK 4a END
 
@@ -50,7 +49,6 @@ namespace Assignment1
                     //End the delivery as a success.
                     //You should use the FinishDelivery function in GameController.
                     //TASK 4b START
-                    GameController gameController = GameObject.Find("GameController").GetComponent<GameController>();
                     gameController.FinishDelivery(true, deliveryIndex);
                     //TASK 4b END
 
